@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator">
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/lastnum_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="353dp"
+        android:layout_height="347dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/clearBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="Clear" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <Button
+                android:id="@+id/sevenBTN"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="@string/seven" />
+
+            <Button
+                android:id="@+id/eightBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/eight" />
+
+            <Button
+                android:id="@+id/nineBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nine" />
+
+            <Button
+                android:id="@+id/divideBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/divide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <Button
+                android:id="@+id/fourBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="@string/four" />
+
+            <Button
+                android:id="@+id/fiveBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/five" />
+
+            <Button
+                android:id="@+id/sixBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/six" />
+
+            <Button
+                android:id="@+id/multiplyBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/multiply" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <Button
+                android:id="@+id/oneBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="@string/one" />
+
+            <Button
+                android:id="@+id/twoBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/two" />
+
+            <Button
+                android:id="@+id/threeBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/three" />
+
+            <Button
+                android:id="@+id/subtractBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/subtract" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <Button
+                android:id="@+id/pointBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="@string/point" />
+
+            <Button
+                android:id="@+id/zeroBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/addBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/add" />
+
+            <Button
+                android:id="@+id/equalsBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/equals" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/lastnum_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

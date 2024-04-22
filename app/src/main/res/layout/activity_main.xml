@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLayoutExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Layout Exercise" />
+
+        <Button
+            android:id="@+id/btnInstagramActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instagram Activity" />
+
+        <Button
+            android:id="@+id/btnButtonExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button Exercise" />
+
+        <Button
+            android:id="@+id/btnCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator" />
+
+        <Button
+            android:id="@+id/btnPassingIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passing Intents" />
+
+        <Button
+            android:id="@+id/btnMenus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENUS" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
