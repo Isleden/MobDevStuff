@@ -7,10 +7,12 @@
     tools:context=".MenuExercise">
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
+        android:id="@+id/btnTransformingButton"
+        android:layout_width="141dp"
+        android:layout_height="156dp"
+        android:text=""
+        android:textSize="30dp"
+        app:cornerRadius="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
